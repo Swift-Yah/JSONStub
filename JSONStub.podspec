@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JSONStub'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JSONStub.'
+  s.summary          = 'Use JSONStub to easily load JSON files into your Mappable objects.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+We use some extensions to easily allows us to load a JSON file into a Mappable object.
+Makes more ease test ObjectMapper parsers.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/JSONStub'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/Swift-Yah/JSONStub'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Rafael da Silva Ferreira' => 'rafael@swift-yah.io' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/JSONStub.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Swift-Yah/JSONStub.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'JSONStub/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'JSONStub' => ['JSONStub/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'ObjectMapper'
 end

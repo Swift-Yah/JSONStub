@@ -1,6 +1,8 @@
 PODS:
-  - JSONStub (0.1.0)
+  - JSONStub (0.1.0):
+    - ObjectMapper
   - Nimble (5.1.0)
+  - ObjectMapper (2.2.0)
   - Quick (0.10.0)
 
 DEPENDENCIES:
@@ -13,8 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JSONStub: d150d593654b7a609b648394d4edfa7bc200db76
+  JSONStub: 7fb3bc8e2dd492dfcf0cb30c7bd4cf9bc86e7d96
   Nimble: 5ea121a2eda60440287054cde077fc0ad22227b3
+  ObjectMapper: 4060d739febae11ab0c6af8d786f98667c82e1bd
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
 
 PODFILE CHECKSUM: 6b7acae77c49ecf8ac589891b408ca580989831d
