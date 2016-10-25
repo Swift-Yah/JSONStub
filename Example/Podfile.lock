@@ -1,0 +1,22 @@
+PODS:
+  - JSONStub (0.1.0)
+  - Nimble (5.1.0)
+  - Quick (0.10.0)
+
+DEPENDENCIES:
+  - JSONStub (from `../`)
+  - Nimble
+  - Quick
+
+EXTERNAL SOURCES:
+  JSONStub:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSONStub: d150d593654b7a609b648394d4edfa7bc200db76
+  Nimble: 5ea121a2eda60440287054cde077fc0ad22227b3
+  Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
+
+PODFILE CHECKSUM: 6b7acae77c49ecf8ac589891b408ca580989831d
+
+COCOAPODS: 1.1.1
