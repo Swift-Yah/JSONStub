@@ -1,5 +1,5 @@
 //
-//  Mappable.swift
+//  BaseMappable.swift
 //  NuChargebackTests
 //
 //  Created by Rafael Ferreira on 10/5/16.
@@ -8,7 +8,7 @@
 
 import ObjectMapper
 
-public extension Mappable {
+public extension BaseMappable {
     init?(fromFileName file: String) {
         guard let json = file.fileDictionary() else { return nil }
 
