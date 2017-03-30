@@ -22,6 +22,12 @@ public extension String {
         return json as? [String: AnyObject]
     }
 
+    func fileString() -> String {
+        guard let data = fileData(), let json = String.init(data: data, encoding: .utf8) else { return "{}" }
+
+        return json
+    }
+
     func filePath() -> String? {
         guard splitAtDot.count == 2 else { return nil }
 

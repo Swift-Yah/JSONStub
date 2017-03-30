@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JSONStub'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Use JSONStub to easily load JSON files into your Mappable objects.'
 
 # This description is used to generate tags and improve search results.
