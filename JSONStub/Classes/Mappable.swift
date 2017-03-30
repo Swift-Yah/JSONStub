@@ -8,7 +8,7 @@
 
 import protocol ObjectMapper.Mappable
 
-extension Mappable {
+public extension Mappable {
     init?(fromFileName file: String) {
         guard let json = file.fileDictionary() else { return nil }
 
