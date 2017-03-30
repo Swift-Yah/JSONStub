@@ -6,7 +6,8 @@
 //  Copyright © 2016 Swift Yah. All rights reserved.
 //
 
-import ObjectMapper
+import struct Foundation.Data
+import protocol ObjectMapper.BaseMappable
 
 public extension BaseMappable {
     init?(fromFileName file: String) {
